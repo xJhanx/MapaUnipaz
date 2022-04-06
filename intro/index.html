@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Conoce unipaz</title>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+		integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+		crossorigin="" />
+	<link rel="stylesheet" type="text/css" href="index.css" />
+	<link rel="stylesheet" href="Pluggins/Leaflet.Legend-master/src/leaflet.legend.css">
+	<link rel="stylesheet" href="Pluggins/leaflet-messagebox-master/leaflet-messagebox.css">
+
+	
+	<div class="select">
+		
+		<h1>Conoce Unipaz</h1>
+		<select name="select-location" id="select-location">
+			<option value="-1">Seleccione un lugar:</option>
+			<option id="123" value="7.06958,-73.74532">Edificio de aulas</option>
+			<option value="7.06929,-73.74550">Biblioteca, cafeteria,auditorios y sala de informatica </option>
+			<option value="7.06931,-73.74516">Area administrativa y de escuelas</option>
+			<option value="7.06898,-73.74528">Plazoleta UNIPAZ</option>
+			<option value="7.06861,-73.74592">Aulas externas</option>
+			<option value="7.06883,-73.74612">Cafeteria 1</option>
+			<option value="7.06837,-73.74389">Cafeteria 2</option>
+			<option value="7.06883,-73.74478">Laborattorio de bioprocesos </option>
+			<option value="7.06875,-73.74446">Laboratorio de produccion y agronomia</option>
+			<option value="7.06797,-73.74398">Laboratorio de anatomia</option>
+			<option value="7.06821,-73.74415">Parqueadero 1</option>
+			<option value="7.06854,-73.74431">Parqueadero 2</option>
+			<option value="7.06797,-73.74398">Parqueadero 3</option>
+			<!-- faltan mas opciones-->
+			<option value="5.638118,-73.526864">Villa de Leiva-Boyacá</option>
+		</select>
+	</div>
+			<div id="map">
+			</div>
+	
+</head>
+
+<body>
+
+	<script src="GeoJson/UNIPAZ.js"></script>
+	<script src="GeoJson/EdfiAdmin.js"></script>
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+		integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+		crossorigin=""></script>
+	<script src="Pluggins/leaflet-messagebox-master/leaflet-messagebox.js"></script>
+	<script src="Pluggins/Leaflet.Legend-master/src/leaflet.legend.js"></script>
+	<script src="index.js"></script>
+
+</body>
+
+</html>
+
+<!-- <div id='map' style='width: 400px; height: 300px;'></div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1Ijoiamhhbi1sb3BlejI2IiwiYSI6ImNsMWN5NWF4ejA4NHozcW5zNDBtamwxc3gifQ.al6TnLOHgptxNpzhXHs_2Q';
+var map = new mapboxgl.Map({
+container: 'map',
+style: 'mapbox://styles/mapbox/streets-v11'
+});
+</script> -->

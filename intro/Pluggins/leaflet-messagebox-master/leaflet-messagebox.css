@@ -1,0 +1,15 @@
+.leaflet-control-messagebox {
+	display: none;
+	/* Initially hidden */
+	padding: 3px 10px;
+	border-radius: 4px;
+	border-style: solid;
+	border-width: 1px;
+	margin-bottom: 12px;
+	font-size: 16px;
+	padding: 12px 16px;
+	background-color: rgba(227, 253, 235, 1);
+	border-color: rgb(147, 222, 128);
+	color: rgba(60, 118, 61, 1);
+}
+
