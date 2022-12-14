@@ -3,6 +3,7 @@ let map = L.map('map').setView([7.06772, -73.74603], 17);
 var options = { timeout: 5000 }
 var box = L.control.messagebox(options).addTo(map);
 //Agregar tilelAyer mapa base desde openstreetmap
+
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
